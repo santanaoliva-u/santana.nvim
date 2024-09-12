@@ -1,14 +1,26 @@
-### 🚀 **Guía Completa para la Instalación de Neovim Configurado: `santana.nvim`** 🚀
+### **Guía Completa para la Instalación de Neovim Configurado: `santana.nvim`**
 
 ---
 
 ## 🛠️ **Requisitos Previos**
 
-Antes de comenzar con la instalación, asegúrate de tener los siguientes requisitos previos:
+Antes de comenzar con la instalación, asegúrate de tener lo siguiente:
 
-1. **Neovim**: Debes tener Neovim instalado. Puedes instalarlo desde el repositorio oficial o usando un gestor de paquetes.
-2. **Git**: Necesitarás Git para clonar el repositorio.
-3. **Dependencias**: Algunos plugins pueden requerir dependencias adicionales. Revisa el archivo `README.md` en el repositorio para cualquier requisito específico.
+- **Neovim** >= **0.9.0** (debe estar compilado con **LuaJIT**).
+- **Git** >= **2.19.0** (para soporte de clones parciales).
+- [LazyVim](https://www.lazyvim.org/).
+- Un [Nerd Font](https://www.nerdfonts.com/) (v3.0 o superior) **_(opcional, pero necesario para mostrar algunos íconos)_**.
+- [lazygit](https://github.com/jesseduffield/lazygit) **_(opcional)_**.
+- Un compilador de **C** para `nvim-treesitter`. Consulta [aquí](https://github.com/nvim-treesitter/nvim-treesitter#requirements).
+- Para [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) **_(opcional)_**:
+  - **live grep**: [ripgrep](https://github.com/BurntSushi/ripgrep).
+  - **find files**: [fd](https://github.com/sharkdp/fd).
+- Un terminal que soporte colores verdaderos y _undercurl_:
+  - [kitty](https://github.com/kovidgoyal/kitty) **_(Linux & macOS)_**.
+  - [wezterm](https://github.com/wez/wezterm) **_(Linux, macOS & Windows)_**.
+  - [alacritty](https://github.com/alacritty/alacritty) **_(Linux, macOS & Windows)_**.
+  - [iTerm2](https://iterm2.com/) **_(macOS)_**.
+- [Solarized Osaka](https://github.com/santanaoliva-u/solarized-osaka.nvim).
 
 ---
 
@@ -16,7 +28,7 @@ Antes de comenzar con la instalación, asegúrate de tener los siguientes requis
 
 ### 1. **Instalar Neovim**
 
-Si aún no tienes Neovim instalado, sigue estos pasos para instalarlo:
+Si aún no tienes Neovim instalado, sigue estos pasos:
 
 - **Para Ubuntu/Debian:**
 
@@ -76,7 +88,7 @@ Tu configuración de Neovim utiliza `LazyVim` para la gestión de plugins. Sigue
 
 ### 4. **Configurar Plugins Adicionales**
 
-Si tu configuración de Neovim requiere plugins adicionales o configuraciones específicas, asegúrate de seguir las instrucciones en el `README.md` del repositorio. Aquí algunos pasos generales para configurar plugins adicionales:
+Si tu configuración de Neovim requiere plugins adicionales o configuraciones específicas, sigue las instrucciones en el `README.md` del repositorio.
 
 1. **Revisar el `README.md`:**
    Abre el archivo `README.md` en el repositorio para cualquier instrucción específica de configuración.
@@ -106,6 +118,16 @@ Para asegurarte de que todo está funcionando correctamente:
 
 3. **Probar Configuraciones:**
    Navega por tu configuración para asegurarte de que todos los ajustes y plugins están funcionando como se espera.
+
+---
+
+# 🎨 **Instalación de Temas en Neovim**
+
+Sigue estos pasos para instalar el tema `solarized-osaka.nvim` en Neovim:
+
+1. **Clonar el Repositorio del Tema y Seguir sus Instrucciones:**
+
+   [Instrucciones de instalación del tema](https://github.com/santanaoliva-u/solarized-osaka.nvim)
 
 ---
 
