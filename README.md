@@ -155,3 +155,10 @@ Si encuentras problemas durante la instalación, aquí algunos pasos para soluci
    - Consulta foros y comunidades como Reddit, Stack Overflow o los canales de soporte de los plugins que estés usando.
 
 ---
+
+## Cambio de Logo o Nombre en Grande
+
+```
+/nvim/lua/plugins/ui.lua
+/lua/plugins/ui.lua
+```
